@@ -1,6 +1,5 @@
 #include "rlc_rx_um_entity.h"
 #include "rlc_rx_um_entity_c_wrapper.h"
-#include "include\srsran\rlc\rlc_config.h"
 
 struct rlc_rx_um_entity_t
 {
