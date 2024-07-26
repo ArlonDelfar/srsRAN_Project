@@ -27,6 +27,8 @@ set(SOURCES
   rlc_rx_am_entity.cpp
   rlc_rx_tm_entity.cpp
   rlc_rx_um_entity.cpp
+  arq_retransmission.c
+  arq_retransmission_wrapper.cpp
 )
 
 add_library(srsran_rlc STATIC ${SOURCES})
